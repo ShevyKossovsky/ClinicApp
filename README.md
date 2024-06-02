@@ -33,7 +33,7 @@ This is the backend of a clinic management system built using ASP.NET Core. The 
 For any questions or support, please contact:
 
 - **Name**: Shevy Kossovsky
-- **Email**: s0556773361.com
+- **Email**: s0556773361@gmail.com
 - **GitHub**: [ShevyKossovsky](https://github.com/ShevyKossovsky)
 
 
