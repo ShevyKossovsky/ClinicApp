@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the backend of the employee management application built using .NET Core. The application allows the manager to manage employee data, including adding, editing, and deleting employees. The backend communicates with a SQL Server database and serves data to the Angular frontend.
+This is the backend of a clinic management system built using ASP.NET Core. The application allows the management of appointments, doctors, and patients, including adding, editing, and deleting records. The backend communicates with a SQL Server database and secures data using JWT authentication.
 
 ## Features
 
