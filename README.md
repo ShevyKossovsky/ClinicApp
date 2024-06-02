@@ -25,7 +25,7 @@ This is the backend of a clinic management system built using ASP.NET Core. The 
 4. Open the console and navigate to the  ***server.data*** project directory.
 
   ```sh
-  Update-Database
+  update-database
    ```
 5. Run the application.
 
@@ -34,7 +34,7 @@ This is the backend of a clinic management system built using ASP.NET Core. The 
 For any questions or support, please contact:
 
 - **Name**: Shevy Kossovsky
-- **Email**: your.email@example.com
+- **Email**: s0556773361.com
 - **GitHub**: [ShevyKossovsky](https://github.com/ShevyKossovsky)
 
 
