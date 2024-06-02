@@ -15,7 +15,6 @@ This is the backend of the employee management application built using .NET Core
 
     ```bash
     git clone https://github.com/ShevyKossovsky/ClinicApp.git
-    cd ClinicApp
     ```
 1. Navigate to the `server` directory.
 
