@@ -16,9 +16,8 @@ This is the backend of a clinic management system built using ASP.NET Core. The 
     ```bash
     git clone https://github.com/ShevyKossovsky/ClinicApp.git
     ```
-1. Navigate to the `server` directory.
-
-2. Open the solution in Visual Studio or any other preferred IDE.
+ 
+2. Open the the project directory in Visual Studio or any other preferred IDE.
 
 3. Ensure you have SQL Server installed and running.
 
