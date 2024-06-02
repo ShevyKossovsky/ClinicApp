@@ -1,63 +1,41 @@
-# פרויקט "קופת חולים"
+# Clinic Management System
 
-## תיאור הפרויקט:
+## Description
 
-מערכת לניהול תורים במרפאה, המאפשרת לפציינטים להזמין תור לרופא ולנהל את כלל התורים במרפאה.
+This is the backend of the employee management application built using .NET Core. The application allows the manager to manage employee data, including adding, editing, and deleting employees. The backend communicates with a SQL Server database and serves data to the Angular frontend.
 
-## ישויות:
+## Features
 
-- פציינט
-- רופא
-- תור
+- **Appointment Management**: Create, update, and delete appointments.
+- **Doctor Management**: Manage doctor profiles and availability.
+- **Patient Management**: Manage patient records and medical history.
+- **Authentication**: Secure the system using JWT (JSON Web Token) for authentication.
 
-## מיפוי Routes לפציינטים:
+1. Clone the repository:
 
-- שליפת רשימת פציינטים
-  - GET: https://maccabi4u.co.il/patients
+    ```bash
+    git clone https://github.com/ShevyKossovsky/ClinicApp.git
+    cd ClinicApp
+    ```
+1. Navigate to the `server` directory.
 
-- שליפת פציינט לפי מזהה
-  - GET: https://maccabi4u.co.il/patients/1
+2. Open the solution in Visual Studio or any other preferred IDE.
 
-- הוספת פציינט
-  - POST: https://maccabi4u.co.il/patients
+3. Ensure you have SQL Server installed and running.
 
-- עדכון פציינט
-  - PUT: https://maccabi4u.co.il/patients/1
+4. Open the console and navigate to the  ***server.data*** project directory.
 
-- עדכון סטטוס
-  - PUT: https://maccabi4u.co.il/patients/1/status
+  ```sh
+  Update-Database
+   ```
+5. Run the application.
 
-## מיפוי Routes לרופאים:
+## Contact
 
-- שליפת רשימת רופאים
-  - GET: https://maccabi4u.co.il/doctors
+For any questions or support, please contact:
 
-- שליפת רופא לפי מזהה
-  - GET: https://maccabi4u.co.il/doctors/1
+- **Name**: Shevy Kossovsky
+- **Email**: your.email@example.com
+- **GitHub**: [ShevyKossovsky](https://github.com/ShevyKossovsky)
 
-- הוספת רופא
-  - POST: https://maccabi4u.co.il/doctors
 
-- עדכון רופא
-  - PUT: https://maccabi4u.co.il/doctors/1
-
-- עדכון סטטוס
-  - PUT: https://maccabi4u.co.il/doctors/1/status
-
-## מיפוי Routes לתורים:
-
-- שליפת רשימת תורים
-  - GET: https://maccabi4u.co.il/appointments
-
-- שליפת תור לפי מזהה
-  - GET: https://maccabi4u.co.il/appointments/1
-
-- הוספת תור
-  - POST: https://maccabi4u.co.il/appointments
-
-- עדכון תור
-  - PUT: https://maccabi4u.co.il/appointments/1
-
-- מחיקת תור
-  - DELETE: https://maccabi4u.co.il/appointments/1
-"# ClinicApp" 
